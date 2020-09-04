@@ -1,6 +1,6 @@
 {
-    "name": "dorcas/modules-sample-php",
-    "description": "Sample Dorcas Hub Module",
+    "name": "dorcas/modules-ops",
+    "description": "Dorcas Operations Module",
     "type": "library",
     "license": "GPL-3.0-or-later",
     "authors": [
@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Dorcas\\ModulesSample\\": "src/"
+            "Dorcas\\ModulesOps\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Dorcas\\ModulesSample\\ModulesSampleServiceProvider"
+                "Dorcas\\ModulesOps\\ModulesOpsServiceProvider"
             ]
         }
     },

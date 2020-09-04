@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'sample-menu1' => [
+    'ops-main' => [
         'title' => 'Menu 1',
-        'route' => 'sample-main',
+        'route' => 'ops-main',
         'icon' => 'fe fe-user'
     ]
 ];

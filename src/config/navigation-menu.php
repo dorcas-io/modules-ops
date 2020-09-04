@@ -13,9 +13,9 @@ clickable - boolen if it should be clickable or only its choldren should be
 
 */
 return [
-    'modules-sample' => [
+    'modules-ops' => [
         'title' => 'Sample',
-        'route' => 'sample-main',
+        'route' => 'ops-main',
         'icon' => 'fe fe-settings',
         'clickable' => true,
         'navbar' => true,
